@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+div {
+    box-sizing: border-box;
+ 	-moz-box-sizing: border-box;
+}
+
+.week {
+    width: 1050px;
+    height: 107px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.day {
+    float: left;
+    display: flex;
+    display: -webkit-flex;
+    width: 150px;
+    height: 100%;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.sun {
+    border-left: 1px solid #ccc;
+}
+
+.bottom {
+    border-bottom: 1px solid #ccc;
+
+}
+
+.week-title {
+    width: 1050px;
+    height: 15px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.day-title {
+    float: left;
+    display: flex;
+    display: -webkit-flex;
+    width: 150px;
+    height:100%; 
+    font-weight:bold; 
+    /*text-align:center;*/
+    font-size:12px;
+    padding-left:50px;
+}
+
+#month_title {
+    text-align: center;
+    width: 1050px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#month {
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+}

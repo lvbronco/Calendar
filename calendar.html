@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<title>Resource Calendar</title>
+<link rel="stylesheet" type="text/css" href="calendar.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+<script src="calendar.js"></script>
+</head>
+
+<body>
+<input type="hidden" id="dateStore" value="">
+<div id="month_title">
+    <a href="javascript:goPrevYear()" style="text-decoration:none"><<</a>&nbsp;
+    <a href="javascript:goPrevMonth()" style="text-decoration:none"><</a>&nbsp;
+    <span id="month"></span>&nbsp;
+    <a href="javascript:goNextMonth()" style="text-decoration:none">></a>&nbsp;
+    <a href="javascript:goNextYear()" style="text-decoration:none">>></a>    
+</div>
+<div class="week-title" id="title">
+    <div class="day-title">Sunday</div>
+    <div class="day-title">Monday</div>
+    <div class="day-title">Tuesday</div>
+    <div class="day-title">Wednesday</div>
+    <div class="day-title">Thursday</div>
+    <div class="day-title">Friday</div>
+    <div class="day-title">Saturday</div>
+</div>
+<div class="week" id="w0">
+    <div class="day sun"></div>
+    <div class="day mon"></div>
+    <div class="day tue"></div>
+    <div class="day wed"></div>
+    <div class="day thr"></div>
+    <div class="day fri"></div>
+    <div class="day sat"></div>
+</div>
+<div class="week" id="w1">
+    <div class="day sun"></div>
+    <div class="day mon"></div>
+    <div class="day tue"></div>
+    <div class="day wed"></div>
+    <div class="day thr"></div>
+    <div class="day fri"></div>
+    <div class="day sat"></div>
+</div>
+<div class="week" id="w2">
+    <div class="day sun"></div>
+    <div class="day mon"></div>
+    <div class="day tue"></div>
+    <div class="day wed"></div>
+    <div class="day thr"></div>
+    <div class="day fri"></div>
+    <div class="day sat"></div>
+</div>
+<div class="week" id="w3">
+    <div class="day sun"></div>
+    <div class="day mon"></div>
+    <div class="day tue"></div>
+    <div class="day wed"></div>
+    <div class="day thr"></div>
+    <div class="day fri"></div>
+    <div class="day sat"></div>
+</div>
+<div class="week" id="w4">
+    <div class="day sun"></div>
+    <div class="day mon"></div>
+    <div class="day tue"></div>
+    <div class="day wed"></div>
+    <div class="day thr"></div>
+    <div class="day fri"></div>
+    <div class="day sat"></div>
+</div>
+<div class="week bottom" id="w5">
+    <div class="day sun"></div>
+    <div class="day mon"></div>
+    <div class="day tue"></div>
+    <div class="day wed"></div>
+    <div class="day thr"></div>
+    <div class="day fri"></div>
+    <div class="day sat"></div>
+</div>
+</body>
+</html>
